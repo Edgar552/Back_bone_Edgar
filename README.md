@@ -1,5 +1,4 @@
 # Back_Bone_Edgar
 Reto Técnico Tech Backbone
 
-Se utilizó GuzzleHttp para el envío de información HTTP al endpoint proporcionado 
-dentro de "routes" se encuentra comentado el código que arroja la respuesta al código postal ingresado
+Se utilizó el XML cargado en una ruta accedediendo a el y convirtiendolo con Simple XML, para poder parsearlo, el resto es uso de estructura cíclica para comparar los valores ingresados en la peticion HTTP y devolverlos en pantalla con JSON
