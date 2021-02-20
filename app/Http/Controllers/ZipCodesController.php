@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\SimpleXMLElement;
 class ZipCodesController extends Controller
 {
+    
+        public function index()
+   {
+
+	}
     public function show(int $id)
    {	/*Seteo la ruta de nu archivo XML*/
  		$XmlPath = resource_path('xml/').'CPdescarga.xml';
